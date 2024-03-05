@@ -43,6 +43,7 @@ header {
 }
 
 @media (max-width: 1024px) {
+  
   .divAnchors {
     display: none !important;
   }
@@ -87,6 +88,7 @@ header {
   }
 
   .divAnchorsMobile a {
+    background-color: var(--primary-color-50);
     padding: 10px;
     text-align: center;
       color: var(--gray-1);
