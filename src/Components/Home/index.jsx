@@ -1,6 +1,8 @@
 import { LiaHandPeaceSolid } from "react-icons/lia";
+import Luffy from "../../assets/luffy.png"
 import styles from "./styles.module.scss"
 import "../../styles/index.scss"
+
 
 export const Home = () => {
     return(
@@ -14,7 +16,7 @@ export const Home = () => {
                         <p className={`${styles.parag} title3`}>moro em São Paulo e através da Kenzie Academy me formei em Desenvolvimento Web FullStack, venha conhecer meus projetos e tecnologias.</p>
                     </div>
                     <div className={styles.divImg}>
-                        <img src="src\assets\luffy.png" alt="luffy" />
+                        <img src={Luffy} alt="Luffy" />
                     </div>
                 </div>
             </div>
