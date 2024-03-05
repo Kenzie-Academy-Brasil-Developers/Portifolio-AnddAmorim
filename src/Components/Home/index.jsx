@@ -1,22 +1,20 @@
 import { LiaHandPeaceSolid } from "react-icons/lia";
-import { FaRegSmileWink } from "react-icons/fa";
 import styles from "./styles.module.scss"
 import "../../styles/index.scss"
 
 export const Home = () => {
     return(
         <>
-        <section>
+        <section id="home">
             <div className="container">
-                <div /*className={styles.flexBox}*/>
-                    <div>
-                        <p className="headline">Hello World <LiaHandPeaceSolid /></p>
-                        <h1>Eu sou Anderson Amorim </h1>
-                        <p>Desenvolvedor FullStack, venha conhecer meus projetos e tecnologias <FaRegSmileWink /> </p>
-                        <button>Projetos</button>
+                <div className={styles.flexBox} >
+                    <div className={styles.divMySelf}>
+                        <p className={`${styles.helloWorld} title4`} >Hello World <LiaHandPeaceSolid className={styles.handStyle} size={20} /></p>
+                        <h1 className={`${styles} title1`}>Eu sou Anderson Amorim </h1>
+                        <p className={`${styles.parag} title3`}>moro em São Paulo e através da Kenzie Academy me formei em Desenvolvimento Web FullStack, venha conhecer meus projetos e tecnologias.</p>
                     </div>
-                    <div>
-                        <img src="../../assets/react.svg" alt="react" />
+                    <div className={styles.divImg}>
+                        <img src="src\assets\luffy.png" alt="luffy" />
                     </div>
                 </div>
             </div>

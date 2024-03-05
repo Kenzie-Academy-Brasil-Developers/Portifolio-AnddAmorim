@@ -1,0 +1,22 @@
+ul {
+    border-bottom: 3px solid var(--color-white);
+  
+    .divTitle {
+      margin-top: 80px;
+  
+      h1 {
+        font-size: 45px;
+        font-family: var(--font-family);
+        color: var(--gray-1);
+      }
+    }
+    .divTechs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px 70px;
+        color: var(--gray-4);
+        margin: 40px 0 60px 0;
+      }
+}

@@ -1,14 +1,75 @@
 section {
   margin-top: 100px;
+  border-bottom: 3px solid var(--color-white);
+  position: relative;
 
-//   .flexBox {
-//     display: flex;
-//     justify-content: center;
-//     gap: 1rem;
+  .flexBox {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 25px;
 
-//     .flexBox > img,
-//     .flexBox > div {
-//       width: 100%;
-//     }
-//   }
+    .flexBox > img,
+    .flexBox > div {
+      width: 100%;
+    }
+
+    .divMySelf {
+      width: 130%;
+      margin-top: 50px;
+
+      .helloWorld {
+        color: var(--primary-color);
+        margin-bottom: 20px;
+
+        .handStyle {
+          color: var(--gray-3);
+        }
+      }
+      h1 {
+        color: var(--gray-1);
+        margin-bottom: 20px;
+      }
+
+      .parag {
+        color: var(--gray-3);
+        letter-spacing: 3px;
+      }
+    }
+
+    .divImg {
+      margin-right: -100px;
+
+      img {
+        width: 70%;
+        border-radius: 40px;
+        margin: 0 96px;
+      }
+    }
+  }
 }
+
+@media (max-width: 1024px){
+
+    img {
+        display: none;
+    }
+
+
+.divMySelf {
+    width: 100%; 
+    margin: 50px 0;
+    .helloWorld {
+        margin-bottom: 10px;
+    }
+
+    .parag {
+        .smile {
+            position: static; 
+            display: block; 
+            margin: 10px auto; 
+        }
+    }
+}
+}
+

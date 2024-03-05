@@ -1,0 +1,46 @@
+.divProjects {
+  border: 2px solid var(--primary-color);
+  border-radius: 25px;
+  width: 337px;
+  height: 320px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: column;
+  margin: 30px 0 60px 0;
+
+  p{
+    line-height: 20px;
+    color: var(--gray-2);
+    font-family: var(--font-family);
+  }
+
+  .divTitle {
+    margin-bottom: 10px;
+    line-height: 30px;
+
+    h2{
+      color: var(--gray-1);
+    }
+
+    p{
+      margin-top: 10px;
+      color: var(--gray-3);
+    }
+  }
+
+  .divIcons{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    
+    a{
+      color: var(--gray-2);
+    }
+    a:hover{
+      color: var(--primary-color-50);
+      transition: 1s;
+    }
+  }
+}
