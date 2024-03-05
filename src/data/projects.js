@@ -11,7 +11,7 @@ export const projects = [
       {id: 4, name: "Axios"},
     ],
     repo: "https://github.com/Kenzie-Academy-Brasil-Developers/Hamburgueria-AnddAmorim",
-    deploy: "https://vercel.com/anddamorim/hamburgueria-andd-amorim",
+    deploy: "https://hamburgueria-andd-amorim.vercel.app",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const projects = [
       {id: 9, name: "Passport"},
     ],
     repo: "https://github.com/Kenzie-Academy-Brasil-Developers/DesafioKenzie-AnddAmorim",
-    deploy: "https://vercel.com/anddamorim/my-virtual-contacts",
+    deploy: "https://my-virtual-contacts.vercel.app",
   },
   {
     id: 5,

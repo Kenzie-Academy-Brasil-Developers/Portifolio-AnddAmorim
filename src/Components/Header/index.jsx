@@ -13,7 +13,7 @@ export const Header = () => {
     return (
         <>
             <header>
-                <div className={styles.divName}>
+                <div className={`${styles.divName} container`}>
                     <h1 className="title3">Anderson Amorim</h1>
                 </div>
 
