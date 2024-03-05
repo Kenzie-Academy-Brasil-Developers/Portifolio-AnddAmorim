@@ -24,7 +24,7 @@ export const projects = [
       {id: 3, name: "ReactJS"},
     ],
     repo: "https://github.com/Kenzie-Academy-Brasil-Developers/NuKenzie-AnddAmorimM3",
-    deploy: "https://vercel.com/anddamorim/nu-kenzie",
+    deploy: "https://nu-kenzie-three-gold.vercel.app",
   },
   {
     id: 3,

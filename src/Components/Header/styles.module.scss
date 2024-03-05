@@ -22,7 +22,8 @@ header {
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    margin: 90px;
+    margin: 70px;
+    width: -webkit-fill-available;
 
     a {
       color: var(--gray-1);
