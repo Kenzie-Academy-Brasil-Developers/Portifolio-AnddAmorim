@@ -17,3 +17,16 @@ ul {
     width: 105%;
   }
 }
+
+@media(max-width: 1024px){
+  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .divProjects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

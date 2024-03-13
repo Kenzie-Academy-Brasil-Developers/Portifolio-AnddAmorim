@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { GiAirplaneDeparture } from "react-icons/gi";
+import { TbSailboat } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import styles from "./styles.module.scss"
 
@@ -28,11 +29,11 @@ export const ProjectsCards = ({ project }) => {
                         <Link to={project.deploy}
                             title="Ver Aplicação"
                             target="_blank">
-                            <GiAirplaneDeparture size={29} />
+                            <TbSailboat  size={29} />
                         </Link>
                     ) : (
                         <button disabled title="Aplicação Backend">
-                            <GiAirplaneDeparture size={29} />
+                            <TbSailboat size={29} />
                         </button>
                     )}
 
